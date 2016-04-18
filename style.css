@@ -1,0 +1,498 @@
+input,select {
+    font-size: 14px;
+}
+
+label.label_file input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+
+input[type=submit] {
+    border: 1px solid #E2E2E2;
+    padding: 5px 15px;
+    background: #F0F0F0;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: #E3E3E3;
+    border: 1px solid #CCC;
+}
+
+.label_file {
+    z-index: 1;
+    background: #F0F0F0;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    float: right;
+    position: relative;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #E2E2E2;
+}
+
+.label_file span {
+    color: #333;
+    font-size: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: none;
+}
+
+.label_file:hover {
+    background: #E3E3E3;
+    border: 1px solid #CCC;
+}
+
+.label_file:active {
+    background: #E3E3E3;
+}
+
+.material-in-box {
+    margin: 5px;
+    height: 210px;
+    border: 1px solid #E2E2E2;
+}
+
+.material-header {
+    line-height: 40px;
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #E2E2E2;
+    float: left;
+    background-color: rgba(240,240,240,0.2);
+}
+
+.material-header h4 {
+    padding-left: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.material-content {
+    height: 149px;
+    width: 100%;
+    float: left;
+    overflow: auto;
+}
+
+.material-footer {
+    height: 21px;
+    line-height: 21px;
+    width: 100%;
+    float: left;
+    border-top: 1px solid #E2E2E2;
+    background-color: rgba(240,240,240,0.2);
+}
+
+.material-footer h6 {
+    text-transform: uppercase;
+}
+
+.material-footer a {
+    text-transform: none;
+    float: right;
+    padding-right: 5px;
+    font-size: 11px;
+}
+
+.material-options {
+    z-index: 1;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    font-size: 14px;
+    background: #F0F0F0;
+    position: absolute;
+    top: 47px;
+    right: 6px;
+    border-left: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.material-options span {
+    margin-left: 5px;
+    color: #333;
+    font-size: 14px;
+}
+
+.material-options select {
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 175px;
+}
+
+.material-options select:nth-child(3) {
+    width: 75px;
+}
+
+.upload {
+width: 40px;
+ width: 400px; 
+
+ margin: 5px;
+}
+.upload input {
+margin-left: 10px;}
+.upload label {
+height: 29px;
+float: left;}
+
+.plan {
+    margin: 5px;
+
+    max-height: 600px;
+    overflow: auto;
+
+}
+
+.plan table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+.plan table tr th {
+    background-color: #FCFCFC;
+}
+
+.plan table input {
+    width: 100%;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    line-height: 41px;
+}
+
+.plan table td,th {
+    padding: 0;
+    height: 43px;
+    border: 1px solid #E2E2E2;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.plan table td:first-child {
+    width: 27.5%;
+}
+
+.plan table td:nth-child(3),td:nth-child(4),td:nth-child(5) {
+    width: 15%;
+}
+
+.plan table td:first-child select {
+    border: none;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.plan table th:first-child input:first-child {
+    width: 16px;
+    border: none;
+    font-size: 15px;
+}
+
+.plan table th:first-child input:nth-of-type(2) {
+    width: 40px;
+    border: none;
+    font-size: 15px;
+}
+
+.plan table th:first-child select:first-of-type {
+    width: 104px;
+    border: none;
+    background-color: #FCFCFC;
+    font-size: 15px;
+}
+
+.plan table th:first-child select:last-of-type {
+    width: 45px;
+    border: none;
+    background-color: #FCFCFC;
+    font-size: 15px;
+}
+
+.plan table th:first-child input:last-child {
+    border: none;
+    width: 40px;
+    font-size: 15px;
+}
+
+.plan table tr:last-child {
+    background-color: #FCFCFC;
+    height: 43px;
+}
+
+.plan table tr:last-child a:nth-child(2) {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-right: 1px solid #E2E2E2;
+    border-left: 1px solid #E2E2E2;
+}
+
+.plan table tr:last-child td:first-child input {
+    width: 13px;
+    margin-left: 5px;
+    margin-right: 1px;
+    background-color: transparent;
+}
+
+.plan input[type=submit] {
+    background: #F0F0F0;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.plan input[type=submit]:hover {
+    background: #E3E3E3;
+    border: none;
+}
+
+.plan table tr:nth-child(2n+0) {
+    background-color: #FCFCFC;
+    border: none;
+}
+
+.plan table td {
+    font-size: 14px;
+}
+
+.magic-box {
+    position: absolute;
+}
+
+.edges {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.in-box {
+    margin: 5px;
+    border: 1px solid #E2E2E2;
+    background-color: rgba(240,240,240,0.2);
+    padding: 5px;
+}
+
+.materials-headings {
+margin: 5px;
+border: 1px solid #e2e2e2; 
+height: 35px;
+line-height: 35px;
+
+}
+
+.materials-headings a {
+background-color: #F9F9F9;
+padding-left: 8px;
+padding-right: 8px;
+margin-right: 8px;
+display: block;
+float: left;
+border-right: 1px solid #e2e2e2;
+}
+
+.materials-headings a:hover {
+background-color:#E3E3E3;
+}
+
+.in-box3 {
+    margin: 5px 5px 0;
+    padding: 5px;
+    border: 1px solid #E2E2E2;
+    background-color: rgba(240,240,240,0.2);
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.in-box2 input[type=text] {
+    margin-right: 4px;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    border: 1px solid #E2E2E2;
+    padding: 3px;
+}
+
+.in-box2 input[type=password] {
+    margin-right: 4px;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    border: 1px solid #E2E2E2;
+    padding: 3px;
+}
+
+.material-search {
+    height: 40px;
+    margin: 5px;
+    background-color: rgba(240,240,240,0.4);
+    border: 1px solid #E2E2E2;
+}
+
+.material-search form div {
+    
+    //width: 27%;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    font-size: 14px;
+    border-right: 1px solid #E2E2E2;
+    //vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.material-search form div:nth-child(4) {
+    text-align: right;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    font-size: 13px;
+    border-right: none;
+    border-left: 1px solid #E2E2E2;
+    padding-left: 0;
+}
+
+.material-search form div:last-child {
+    text-align: right;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    font-size: 13px;
+    border-right: none;
+    border-left: 1px solid #E2E2E2;
+    padding-left: 0;
+}
+
+.material-search form div input {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.material-search form div select {
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.material-search form div:first-child select {
+    min-width: 183px;
+}
+
+.material-search form div:nth-child(2) select {
+    min-width: 70px;
+}
+.material-search form div:nth-child(3) select {
+    min-width: 120px;
+}
+.text-area {
+    width: 100%;
+    height: 780px;
+    font-size: 13px;
+}
+
+.top-5px {
+    margin-top: 5px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 2px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 2px;
+}
+
+.no-float {
+    display: block;
+    margin: 0 auto;
+}
+
+.plan-search {
+    height: 40px;
+    margin: 5px;
+    background-color: rgba(240,240,240,0.4);
+    border: 1px solid #E2E2E2;
+}
+
+.admin-header {
+    height: 40px;
+    margin: 5px;
+    background-color: rgba(240,240,240,0.4);
+    border: 1px solid #E2E2E2;
+    line-height: 40px;
+}
+
+.admin-header div {
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+    border-right: 1px solid #E2E2E2;
+}
+.admin-header div:hover {
+background-color: #E3E3E3; 
+}
+
+.admin-header div:nth-child(4) {
+  border-right: none;
+  float:right;
+
+
+}
+
+.admin-header div:nth-child(5) {
+
+   float:right;
+     height: 40px;
+
+}
+
+.admin-header div:nth-child(5) img {
+margin-top: 7px;
+
+}
+
+.plan-search form {
+    display: inline-block;
+    float: left;
+    padding: 0 5px;
+    line-height: 40px;
+    border-right: 1px solid #E2E2E2;
+}
+
+.plan-search form div {
+    float: left;
+}
+
+.plan-search form div:last-child {
+    margin-left: 5px;
+    padding-left: 5px;
+    border-left: 1px solid #E2E2E2;
+}
+
+.plan-search a img {
+    float: right;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+
+.text {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+

@@ -1,0 +1,71 @@
+@media print {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #header {
+        display: none;
+    }
+
+    #header-cont {
+        display: none;
+    }
+
+    #header-img {
+        display: none;
+    }
+
+    #bread-crumb {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }
+
+    .magic-box {
+        display: none;
+    }
+
+    .plan-search {
+        display: none;
+    }
+    
+    .admin-header {
+        display: none;
+    }
+    
+    .page-nav ul li a {
+        display: none;    
+    }
+
+    .print {
+        width: 20cm;
+        left: -1cm;
+        position: absolute;
+        visibility: visible;
+        page-break-after: always;
+        margin: 0;
+    }
+
+    .article-full-header {
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid #E2E2E2;
+    }
+
+    .article-full-content {
+        border: none;
+    }
+
+    .article-full-footer {
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid #E2E2E2;
+    }
+}
