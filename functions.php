@@ -2,7 +2,7 @@
 //=====================STAŁE====================================================
 define('DBHOST', 'localhost');
 define('DBUSER', 'southpaw_zaoczne');
-define('DBPASS', 'master000');
+define('DBPASS', 'haslo');
 define('DBNAME', 'southpaw_zaoczne');
 //====================TWORZENIE BAZY============================================
 function db_zaoczne_lo() {
